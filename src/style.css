@@ -39,8 +39,6 @@
 }
 
 .search__bar {
-  display: flex;
-  align-items: center;
   border: none;
   outline: none;
   background: transparent;
@@ -59,7 +57,7 @@
 
 .search__form--small {
   height: 42px;
-  padding-left: 14px;
+  padding-left: 12px;
 }
 
 .search__bar::placeholder {
@@ -88,13 +86,15 @@
 }
 
 .search__icon--big {
-  height: 19px;
-  width: 19px;
-  margin-right: 17px;
+  height: 20px;
+  width: 20px;
+  border: 1px;
+  margin-right: 16px;
 }
 
 .search__icon--small {
   width: 11px;
   height: 11px;
-  margin-right: 5px;
+  border: 1px transparent;
+  margin-right: 8px;
 }
