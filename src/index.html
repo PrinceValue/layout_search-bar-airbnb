@@ -19,30 +19,32 @@
       href="style.css"
     />
   </head>
-  <body>
+  <body class="page__body">
     <div class="search">
       <form
         data-qa="big"
         class="search__form search__form--big"
       >
-        <div class="search__icon search__icon--big"></div>
-        <input
-          class="search__bar search__bar--big"
-          type="text"
-          data-qa="keypress"
-          placeholder="Try “Los Angeles“"
-        />
+        <label class="search__bar search__bar--big">
+          <input
+            class="search__input search__input--big"
+            type="text"
+            data-qa="keypress"
+            placeholder="Try “Los Angeles“"
+          />
+        </label>
       </form>
       <form
         data-qa="small"
         class="search__form search__form--small"
       >
-        <div class="search__icon search__icon--small"></div>
-        <input
-          class="search__bar search__bar--small"
-          type="text"
-          placeholder="Try “Los Angeles“"
-        />
+        <label class="search__bar search__bar--small">
+          <input
+            class="search__input search__input--small"
+            type="text"
+            placeholder="Try “Los Angeles“"
+          />
+        </label>
       </form>
     </div>
   </body>
